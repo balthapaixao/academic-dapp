@@ -1,0 +1,23 @@
+source venv-dapp/bin/activate
+
+
+pip install pipx
+pipx ensurepath
+
+
+pipx install eth-brownie --force    
+pip install eth-brownie
+
+
+brownie bake
+
+brownie compile
+
+
+
+
+
+
+
+https://www.section.io/engineering-education/erc20-tokens-and-transact-using-brownie-python/
+
